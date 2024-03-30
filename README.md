@@ -1,5 +1,5 @@
 $ git log
-git commit을 한 내역을 확인
+#git commit을 한 내역을 확인
 
 $ git log --branches --not --remotes
 push하지 않은 commit 목록만 확인하기
