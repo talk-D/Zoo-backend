@@ -1,13 +1,17 @@
 $ git log
-//git commit을 한 내역을 확인
+
+// git commit을 한 내역을 확인
 
 $ git log --branches --not --remotes
-push하지 않은 commit 목록만 확인하기
+
+// push하지 않은 commit 목록만 확인하기
 
 $ git push -u <원격 저장소 이름> <브랜치 이름>
+
 $ git push origin master
 
 $ git push
+
 원격 저장소와 브랜치 이름 없이 입력하면, 현재 브랜치의 원격 저장소로 push된다.
 특정 저장소나 브랜치로 push 하려고 하는게 아니라면 그냥 git push만 해줘도 된다.
 
