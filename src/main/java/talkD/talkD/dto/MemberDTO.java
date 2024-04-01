@@ -1,6 +1,7 @@
 package talkD.talkD.dto;
 
 import lombok.*;
+import talkD.talkD.entity.MemberEntity;
 
 //DTO클래스는 회원정보에 필요한 필드를 저장한다. 클래스의 필드를 모두 다 프라이빗으로 저장.
 //lombok을 이용하여 getter setter 등등 필드의 매개변수자를 따로 코드짤 필요 없이 어너테이션을 입력해주면 자동으로 생긴다.
@@ -17,4 +18,13 @@ public class MemberDTO {
     private String memberEmail;
     private String memberPassword;
     private String memberName;
+
+    public static MemberDTO toMemberDTO(MemberEntity memberEntity) {
+        MemberDTO memberDTO = new MemberDTO();
+        memberDTO.setId(memberEntity.getId());
+        memberDTO.setMemberEmail(memberEntity.getMemberEmail());
+        memberDTO.setMemberPassword(memberEntity.getMemberPassword());
+        memberDTO.setMemberName(memberEntity.getMemberName());
+        return memberDTO;
+    }
 }
