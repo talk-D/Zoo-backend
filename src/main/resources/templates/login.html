@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <title>talk:D 로그인</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -11,5 +11,10 @@
         비밀번호: <input type="password" name="memberPassword"> <br>
         <input type="submit" value="로그인">
     </form>
+    <span th:if="${userId==null}">
+            <a href="https://kauth.kakao.com/oauth/authorize?client_id=038fe084e421305747d89475901c042e&redirect_uri=http://localhost:8081/member/login&response_type=code">
+                <img src = "../static/img/kakao_login_medium_narrow.png" >
+            </a>
+    </span>
 </body>
 </html>
