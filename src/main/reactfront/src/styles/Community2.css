@@ -1,0 +1,434 @@
+.screen {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.screen .div {
+    background-color: #ffffff;
+    height: 1024px;
+    position: relative;
+    width: 1440px;
+}
+
+.screen .logo {
+    height: 58px;
+    left: 134px;
+    object-fit: cover;
+    position: absolute;
+    top: 102px;
+    width: 117px;
+}
+
+.screen .overlap {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #6d6d6d;
+    border-radius: 143px;
+    height: 75px;
+    left: 319px;
+    position: absolute;
+    top: 94px;
+    width: 666px;
+}
+
+.screen .searchtext {
+    color: #cec9c9;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 45px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 24px;
+    white-space: nowrap;
+}
+
+.screen .searchimg {
+    height: 50px;
+    left: 583px;
+    position: absolute;
+    top: 12px;
+    width: 50px;
+}
+
+.screen .mypage {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 1133px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 118px;
+    white-space: nowrap;
+}
+
+.screen .myprofileimg {
+    height: 78px;
+    left: 1237px;
+    object-fit: cover;
+    position: absolute;
+    top: 92px;
+    width: 78px;
+}
+
+.screen .thememenu {
+    background-color: #fafafa;
+    height: 84px;
+    left: 87px;
+    position: absolute;
+    top: 247px;
+    width: 1266px;
+}
+
+.screen .viewtheme {
+    color: #828282;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 127px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 27px;
+}
+
+.screen .thememake {
+    color: #828282;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 443px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 27px;
+}
+
+.screen .themesave {
+    color: #828282;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 980px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 27px;
+}
+
+.screen .community {
+    color: #3c3c3c;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    left: 715px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 27px;
+}
+
+.screen .overlap-group {
+    background-color: #f6f6f6;
+    border-radius: 43.19px;
+    height: 60px;
+    left: 224px;
+    position: absolute;
+    top: 561px;
+    width: 260px;
+}
+
+.screen .H1 {
+    color: #3c3c3c;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    left: 29px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 17px;
+    white-space: nowrap;
+    width: 34px;
+}
+
+.screen .H2 {
+    color: #3c3c3c;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    left: 84px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 17px;
+    white-space: nowrap;
+    width: 34px;
+}
+
+.screen .H3 {
+    color: #3c3c3c;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    left: 142px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 17px;
+    white-space: nowrap;
+    width: 34px;
+}
+
+.screen .H4 {
+    color: #3c3c3c;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    left: 197px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 17px;
+    white-space: nowrap;
+    width: 34px;
+}
+
+.screen .overlap-group-2 {
+    background-color: #f6f6f6;
+    border-radius: 43.19px;
+    height: 60px;
+    left: 501px;
+    position: absolute;
+    top: 561px;
+    width: 232px;
+}
+
+.screen .I {
+    color: #3c3c3c;
+    font-family: "Inika-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 87px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 16px;
+    white-space: nowrap;
+    width: 22px;
+}
+
+.screen .T {
+    color: #3c3c3c;
+    font-family: "Inika-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 139px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-decoration: line-through;
+    top: 16px;
+    white-space: nowrap;
+    width: 22px;
+}
+
+.screen .paintingimg {
+    color: #3c3c3c;
+    font-family: "Inika-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 191px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-decoration: line-through;
+    top: 17px;
+    white-space: nowrap;
+    width: 22px;
+}
+
+.screen .B {
+    color: #3c3c3c;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-size: 20px;
+    font-weight: 800;
+    left: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 17px;
+    white-space: nowrap;
+    width: 34px;
+}
+
+.screen .pictureimg-wrapper {
+    background-color: #f6f6f6;
+    border-radius: 43.19px;
+    height: 60px;
+    left: 754px;
+    position: absolute;
+    top: 561px;
+    width: 62px;
+}
+
+.screen .pictureimg {
+    color: #3c3c3c;
+    font-family: "Inika-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-decoration: line-through;
+    top: 17px;
+    white-space: nowrap;
+    width: 22px;
+}
+
+.screen .entertitle {
+    color: #919191;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 36px;
+    font-weight: 600;
+    left: 233px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 408px;
+}
+
+.screen .entercontent {
+    color: #919191;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    left: 233px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 658px;
+}
+
+.screen .upload-wrapper {
+    background-color: #faa422;
+    border-radius: 10px;
+    height: 45px;
+    left: 1242px;
+    position: absolute;
+    top: 936px;
+    width: 154px;
+}
+
+.screen .upload {
+    color: #3c3c3c;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    left: 31px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 10px;
+    white-space: nowrap;
+}
+
+.screen .temporarysave-wrapper {
+    background-color: #faa42263;
+    border-radius: 10px;
+    height: 45px;
+    left: 1070px;
+    position: absolute;
+    top: 936px;
+    width: 154px;
+}
+
+.screen .temporarysave {
+    color: #3c3c3c;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    left: 39px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 10px;
+    white-space: nowrap;
+}
+
+.screen .line_1 {
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: 898px;
+    width: 1440px;
+}
+
+.screen .line_2 {
+    height: 4px;
+    left: 224px;
+    object-fit: cover;
+    position: absolute;
+    top: 544px;
+    width: 1018px;
+}
+
+.screen .overlap-2 {
+    background-color: #e9e9e961;
+    height: 34px;
+    left: 233px;
+    position: absolute;
+    top: 474px;
+    width: 163px;
+}
+
+.screen .category {
+    color: #c0c0c0;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 5px;
+    white-space: nowrap;
+}
+
+.screen .triangleimg {
+    height: 13px;
+    left: 134px;
+    position: absolute;
+    top: 10px;
+    width: 16px;
+}
+
+.screen .temporarystroge-wrapper {
+    background-color: #faa42263;
+    border-radius: 10px;
+    height: 45px;
+    left: 898px;
+    position: absolute;
+    top: 936px;
+    width: 154px;
+}
+
+.screen .temporarystroge {
+    color: #3c3c3c;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    left: 29px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 10px;
+    white-space: nowrap;
+}

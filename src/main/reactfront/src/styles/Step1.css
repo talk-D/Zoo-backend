@@ -1,0 +1,532 @@
+.div-wrapper {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .div-wrapper .div {
+    background-color: #ffffff;
+    height: 1024px;
+    overflow: hidden; /* Added overflow property */
+    position: relative;
+    width: 1440px;
+  }
+  
+  .div-wrapper .thememenu {
+    background-color: #fafafa;
+    height: 84px;
+    left: 87px;
+    position: absolute;
+    top: 173px;
+    width: 1266px;
+  }
+  
+  .div-wrapper .viewtheme {
+    color: #828282;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 158px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 28px;
+  }
+  
+  .div-wrapper .thememake {
+    color: #3c3c3c;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    left: 474px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 28px;
+  }
+  
+  .div-wrapper .mystorage {
+    color: #828282;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 1011px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 28px;
+  }
+  
+  .div-wrapper .community {
+    color: #828282;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    left: 746px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 28px;
+  }
+  
+  .div-wrapper .searchframe {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #6d6d6d;
+    border-radius: 143px;
+    height: 75px;
+    left: 387px;
+    position: absolute;
+    top: 64px;
+    width: 666px;
+  }
+  
+  .div-wrapper .searchimg {
+    height: 50px;
+    left: 591px;
+    position: absolute;
+    top: 11px;
+    width: 50px;
+  }
+  
+  .div-wrapper .searchtext {
+    color: #cec9c9;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 45px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 24px;
+    white-space: nowrap;
+  }
+  
+  .div-wrapper .logo {
+    height: 58px;
+    left: 183px;
+    object-fit: cover;
+    position: absolute;
+    top: 73px;
+    width: 117px;
+  }
+  
+  .div-wrapper .mypage {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 1104px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 87px;
+    white-space: nowrap;
+  }
+  
+  .div-wrapper .myprofileimg {
+    height: 78px;
+    left: 1206px;
+    object-fit: cover;
+    position: absolute;
+    top: 61px;
+    width: 78px;
+  }
+  
+  .div-wrapper .overlap-group {
+    background-color: #f6f6f6;
+    height: 607px;
+    left: 87px;
+    position: absolute;
+    top: 427px;
+    width: 1266px;
+  }
+  
+  .div-wrapper .nextbtn {
+    height: 49px;
+    left: 1071px;
+    position: absolute;
+    top: 493px;
+    width: 141px;
+  }
+  
+  .div-wrapper .overlap-group-2 {
+    background-color: #faa422;
+    border-radius: 43px;
+    height: 49px;
+    position: relative;
+    width: 139px;
+  }
+  
+  .div-wrapper .text-wrapper {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 9px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    width: 121px;
+  }
+  
+  .div-wrapper .themeinfo {
+    color: #3c3c3c;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 36px;
+    font-weight: 600;
+    left: 450px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 66px;
+    white-space: nowrap;
+    width: 365px;
+  }
+  
+  .div-wrapper .themename-kor {
+    height: 61px;
+    left: 342px;
+    position: absolute;
+    top: 339px;
+    width: 604px;
+  }
+  
+  .div-wrapper .themename-kor-2 {
+    height: 61px;
+    position: relative;
+    width: 606px;
+  }
+  
+  .div-wrapper .rectangle {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #d9d9d9;
+    border-radius: 43px;
+    height: 58px;
+    left: 188px;
+    position: absolute;
+    top: 0;
+    width: 416px;
+  }
+  
+  .div-wrapper .text-wrapper-2 {
+    color: #3c3c3c;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: right;
+    top: 17px;
+    width: 165px;
+  }
+  
+  .div-wrapper .themename-eng {
+    height: 60px;
+    left: 321px;
+    position: absolute;
+    top: 433px;
+    width: 627px;
+  }
+  
+  .div-wrapper .rectangle-2 {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #d9d9d9;
+    border-radius: 43px;
+    height: 58px;
+    left: 209px;
+    position: absolute;
+    top: 0;
+    width: 416px;
+  }
+  
+  .div-wrapper .text-wrapper-3 {
+    color: #3c3c3c;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: right;
+    top: 16px;
+    width: 186px;
+  }
+  
+  .div-wrapper .theme-ID {
+    height: 60px;
+    left: 446px;
+    position: absolute;
+    top: 156;
+    width: 504px;
+  }
+  
+  .div-wrapper .overlap-2 {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #d9d9d9;
+    border-radius: 43px;
+    height: 58px;
+    left: 84px;
+    position: absolute;
+    top: 0;
+    width: 416px;
+  }
+  
+  .div-wrapper .text-wrapper-4 {
+    color: #828282;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 16px;
+    width: 107px;
+  }
+  
+  .div-wrapper .text-wrapper-5 {
+    color: #3c3c3c;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: right;
+    top: 16px;
+    width: 61px;
+  }
+  
+  .div-wrapper .themeversion {
+    height: 60px;
+    left: 98px;
+    position: absolute;
+    top: 89px;
+    width: 531px;
+  }
+  
+  .div-wrapper .overlap-3 {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #d9d9d9;
+    border-radius: 43px;
+    height: 58px;
+    left: 111px;
+    position: absolute;
+    top: 0;
+    width: 416px;
+  }
+  
+  .div-wrapper .text-wrapper-6 {
+    color: #828282;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 17px;
+    width: 107px;
+  }
+  
+  .div-wrapper .text-wrapper-7 {
+    color: #3c3c3c;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: right;
+    top: 16px;
+    width: 88px;
+  }
+  
+  .div-wrapper .step-wrapper {
+    background-color: #e6e6e6;
+    border-radius: 55px;
+    height: 59px;
+    left: 98px;
+    position: absolute;
+    top: 272px;
+    width: 226px;
+  }
+  
+  .div-wrapper .step {
+    color: #3c3c3c;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 14px;
+  }
+  
+  .div-wrapper .overlap-3 {
+    background-color: #e6e6e6;
+    border-radius: 55px;
+    height: 59px;
+    left: 346px;
+    position: absolute;
+    top: 272px;
+    width: 226px;
+  }
+  
+  .div-wrapper .step-2 {
+    color: #828282;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 14px;
+  }
+  
+  .div-wrapper .thumbnail-wrapper {
+    background-color: #f4f4f4;
+    border-radius: 55px;
+    height: 59px;
+    left: 349px;
+    position: absolute;
+    top: 346px;
+    width: 138px;
+  }
+  
+  .div-wrapper .text-wrapper-8 {
+    color: #828282;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 14px;
+  }
+  
+  .div-wrapper .pw-wrapper {
+    background-color: #f4f4f4;
+    border-radius: 55px;
+    height: 59px;
+    left: 499px;
+    position: absolute;
+    top: 346px;
+    width: 138px;
+  }
+  
+  .div-wrapper .pw {
+    color: #828282;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 26px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 14px;
+  }
+  
+  .div-wrapper .freindlist-wrapper {
+    background-color: #f4f4f4;
+    border-radius: 55px;
+    height: 59px;
+    left: 649px;
+    position: absolute;
+    top: 346px;
+    width: 138px;
+  }
+  
+  .div-wrapper .freindlist {
+    color: #828282;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 21px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 14px;
+  }
+  
+  .div-wrapper .chattingroom-wrapper {
+    background-color: #f4f4f4;
+    border-radius: 55px;
+    height: 59px;
+    left: 914px;
+    position: absolute;
+    top: 346px;
+    width: 138px;
+  }
+  
+  .div-wrapper .tapbar-wrapper {
+    background-color: #f4f4f4;
+    border-radius: 55px;
+    height: 59px;
+    left: 799px;
+    position: absolute;
+    top: 346px;
+    width: 103px;
+  }
+  
+  .div-wrapper .tapbar {
+    color: #828282;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 29px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 14px;
+  }
+  
+  .div-wrapper .overlap-4 {
+    background-color: #e6e6e6;
+    border-radius: 55px;
+    height: 59px;
+    left: 1115px;
+    position: absolute;
+    top: 272px;
+    width: 226px;
+  }
+  
+  .div-wrapper .notification-wrapper {
+    background-color: #f4f4f4;
+    border-radius: 55px;
+    height: 59px;
+    left: 1064px;
+    position: absolute;
+    top: 346px;
+    width: 138px;
+  }
+  
+  .div-wrapper .notification {
+    color: #828282;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 37px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 14px;
+  }
