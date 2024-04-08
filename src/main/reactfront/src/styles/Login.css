@@ -4,30 +4,24 @@
     flex-direction: row;
     justify-content: center;
     width: 100%;
-}
-.screen .entire {
+  }
+  
+  .screen .overlap-group-wrapper {
     background-color: #ffffff;
     height: 1024px;
     width: 1440px;
-}
-
-.screen .overlap-group {
-    height: 1024px;
-    position: relative;
-    top: 94px;
-    width: 1440px;
-}
-
-.screen .logoimg1 {
+  }
+  
+  .screen .logo {
     height: 58px;
     left: 47px;
     object-fit: cover;
     position: absolute;
     top: 8px;
     width: 117px;
-}
-
-.screen .searchframe {
+  }
+  
+  .screen .searchframe {
     background-color: #ffffff;
     border: 1px solid;
     border-color: #6d6d6d;
@@ -37,9 +31,9 @@
     position: absolute;
     top: 0;
     width: 666px;
-}
-
-.screen .searchtext {
+  }
+  
+  .screen .searchtext {
     color: #cec9c9;
     font-family: "Inter-Regular", Helvetica;
     font-size: 20px;
@@ -50,26 +44,26 @@
     position: absolute;
     top: 25px;
     white-space: nowrap;
-}
-
-.screen .searchimg {
+  }
+  
+  .screen .searchimg {
     height: 50px;
     left: 816px;
     position: absolute;
     top: 13px;
     width: 50px;
-}
-
-.screen .themeframe {
+  }
+  
+  .screen .themeframe {
     background-color: #fafafa;
     height: 84px;
     left: 0;
     position: absolute;
     top: 153px;
     width: 1266px;
-}
-
-.screen .login-signup {
+  }
+  
+  .screen .login-signup {
     color: #000000;
     font-family: "Inter-Regular", Helvetica;
     font-size: 20px;
@@ -80,18 +74,18 @@
     position: absolute;
     top: 25px;
     white-space: nowrap;
-}
-
-.screen .bottom-box {
+  }
+  
+  .screen .bottom-box {
     background-color: #f6f6f6;
     height: 615px;
     left: 0;
     position: absolute;
     top: 315px;
     width: 1266px;
-}
-
-.screen .loginentire {
+  }
+  
+  .screen .loginentire {
     background-color: #ffffff;
     border: 3px solid;
     border-color: #474747;
@@ -101,9 +95,9 @@
     position: absolute;
     top: 39px;
     width: 1058px;
-}
-
-.screen .emailframe {
+  }
+  
+  .screen .emailframe {
     background-color: #ffffff;
     border: 1px solid;
     border-color: #6d6d6d;
@@ -113,26 +107,26 @@
     position: absolute;
     top: 288px;
     width: 367px;
-}
-
-.screen .logoimg2 {
+  }
+  
+  .screen .img {
     height: 58px;
     left: 574px;
     object-fit: cover;
     position: absolute;
     top: 153px;
     width: 117px;
-}
-
-.screen .loginline {
+  }
+  
+  .screen .loginline {
     height: 20px;
     left: 634px;
     position: absolute;
     top: 534px;
     width: 1px;
-}
-
-.screen .logintext {
+  }
+  
+  .screen .logintext {
     color: #3c3c3c;
     font-family: "Inter-Regular", Helvetica;
     font-size: 32px;
@@ -142,9 +136,9 @@
     line-height: normal;
     position: absolute;
     top: 229px;
-}
-
-.screen .pwframe {
+  }
+  
+  .screen .pwframe {
     background-color: #ffffff;
     border: 1px solid;
     border-color: #6d6d6d;
@@ -154,9 +148,9 @@
     position: absolute;
     top: 367px;
     width: 367px;
-}
-
-.screen .emailtext {
+  }
+  
+  .screen .emailtext {
     color: #cec9c9;
     font-family: "Inter-Regular", Helvetica;
     font-size: 20px;
@@ -167,9 +161,9 @@
     position: absolute;
     top: 305px;
     white-space: nowrap;
-}
-
-.screen .searchpw {
+  }
+  
+  .screen .searchpw {
     color: #828282;
     font-family: "Inter-Regular", Helvetica;
     font-size: 15px;
@@ -181,9 +175,9 @@
     text-decoration: underline;
     top: 535px;
     white-space: nowrap;
-}
-
-.screen .searchid {
+  }
+  
+  .screen .searchid {
     color: #828282;
     font-family: "Inter-Regular", Helvetica;
     font-size: 15px;
@@ -195,18 +189,18 @@
     text-decoration: underline;
     top: 535px;
     white-space: nowrap;
-}
-
-.screen .kakaologinimg {
+  }
+  
+  .screen .kakaologinimg {
     height: 45px;
     left: 541px;
     object-fit: cover;
     position: absolute;
     top: 575px;
     width: 183px;
-}
+  }
 
-.screen .signupemail {
+  .screen .signupemail {
     color: #828282;
     font-family: "Inter-Regular", Helvetica;
     font-size: 15px;
@@ -218,9 +212,9 @@
     text-decoration: underline;
     top: 640px;
     white-space: nowrap;
-}
-
-.screen .loginbtnframe {
+  }
+    
+  .screen .loginbtnframe {
     align-items: center;
     background-color: #e9e9e9;
     display: inline-flex;
@@ -230,9 +224,9 @@
     padding: 8px 42px;
     position: absolute;
     top: 461px;
-}
-
-.screen .loginbtntext {
+  }
+  
+  .screen .loginbtntext {
     color: #000000;
     font-family: "Inter-Regular", Helvetica;
     font-size: 20px;
@@ -243,9 +237,9 @@
     position: relative;
     white-space: nowrap;
     width: fit-content;
-}
-
-.screen .pwtext {
+  }
+  
+  .screen .pwtext {
     color: #cec9c9;
     font-family: "Inter-Regular", Helvetica;
     font-size: 20px;
@@ -256,4 +250,5 @@
     position: absolute;
     top: 384px;
     white-space: nowrap;
-}
+  }
+  
