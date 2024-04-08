@@ -1,0 +1,259 @@
+.screen {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.screen .entire {
+    background-color: #ffffff;
+    height: 1024px;
+    width: 1440px;
+}
+
+.screen .overlap-group {
+    height: 1024px;
+    position: relative;
+    top: 94px;
+    width: 1440px;
+}
+
+.screen .logoimg1 {
+    height: 58px;
+    left: 47px;
+    object-fit: cover;
+    position: absolute;
+    top: 8px;
+    width: 117px;
+}
+
+.screen .searchframe {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #6d6d6d;
+    border-radius: 143px;
+    height: 75px;
+    left: 232px;
+    position: absolute;
+    top: 0;
+    width: 666px;
+}
+
+.screen .searchtext {
+    color: #cec9c9;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 278px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 25px;
+    white-space: nowrap;
+}
+
+.screen .searchimg {
+    height: 50px;
+    left: 816px;
+    position: absolute;
+    top: 13px;
+    width: 50px;
+}
+
+.screen .themeframe {
+    background-color: #fafafa;
+    height: 84px;
+    left: 0;
+    position: absolute;
+    top: 153px;
+    width: 1266px;
+}
+
+.screen .login-signup {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 1118px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 25px;
+    white-space: nowrap;
+}
+
+.screen .bottom-box {
+    background-color: #f6f6f6;
+    height: 615px;
+    left: 0;
+    position: absolute;
+    top: 315px;
+    width: 1266px;
+}
+
+.screen .loginentire {
+    background-color: #ffffff;
+    border: 3px solid;
+    border-color: #474747;
+    border-radius: 17px;
+    height: 757px;
+    left: 104px;
+    position: absolute;
+    top: 39px;
+    width: 1058px;
+}
+
+.screen .emailframe {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #6d6d6d;
+    border-radius: 143px;
+    height: 60px;
+    left: 449px;
+    position: absolute;
+    top: 288px;
+    width: 367px;
+}
+
+.screen .logoimg2 {
+    height: 58px;
+    left: 574px;
+    object-fit: cover;
+    position: absolute;
+    top: 153px;
+    width: 117px;
+}
+
+.screen .loginline {
+    height: 20px;
+    left: 634px;
+    position: absolute;
+    top: 534px;
+    width: 1px;
+}
+
+.screen .logintext {
+    color: #3c3c3c;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 588px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 229px;
+}
+
+.screen .pwframe {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #6d6d6d;
+    border-radius: 143px;
+    height: 60px;
+    left: 449px;
+    position: absolute;
+    top: 367px;
+    width: 367px;
+}
+
+.screen .emailtext {
+    color: #cec9c9;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 474px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 305px;
+    white-space: nowrap;
+}
+
+.screen .searchpw {
+    color: #828282;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 646px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-decoration: underline;
+    top: 535px;
+    white-space: nowrap;
+}
+
+.screen .searchid {
+    color: #828282;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 548px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-decoration: underline;
+    top: 535px;
+    white-space: nowrap;
+}
+
+.screen .kakaologinimg {
+    height: 45px;
+    left: 541px;
+    object-fit: cover;
+    position: absolute;
+    top: 575px;
+    width: 183px;
+}
+
+.screen .signupemail {
+    color: #828282;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 559px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-decoration: underline;
+    top: 640px;
+    white-space: nowrap;
+}
+
+.screen .loginbtnframe {
+    align-items: center;
+    background-color: #e9e9e9;
+    display: inline-flex;
+    gap: 10px;
+    justify-content: center;
+    left: 562px;
+    padding: 8px 42px;
+    position: absolute;
+    top: 461px;
+}
+
+.screen .loginbtntext {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.screen .pwtext {
+    color: #cec9c9;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 474px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 384px;
+    white-space: nowrap;
+}

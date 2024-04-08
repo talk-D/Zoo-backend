@@ -1,0 +1,180 @@
+.screen { 
+    background-color: #ffffff;
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    width: 100%; 
+} 
+.screen .div { 
+    background-color: #ffffff; 
+    height: 1024px; 
+    position: relative;
+    width: 1440px; 
+} 
+.screen .bottomframe { 
+    background-color: #f6f6f6; 
+    height: 642px; 
+    left: 87px; 
+    position: absolute; 
+    top: 370px; 
+    width: 1266px; 
+} 
+.screen .hottheme { 
+    color: #6d6d6d; 
+    font-family: "Inter-Regular", Helvetica; 
+    font-size: 20px; 
+    font-weight: 400; 
+    left: 499px; 
+    letter-spacing: 0; 
+    line-height: normal; 
+    position: absolute; 
+    top: 140px; 
+    white-space: nowrap; 
+} 
+.screen .todaytheme { 
+    color: #000000; 
+    font-family: "Inter-SemiBold", Helvetica; 
+    font-size: 50px; 
+    font-weight: 600; 
+    left: 206px; 
+    letter-spacing: 0; 
+    line-height: normal; 
+    position: absolute; 
+    text-align: center; 
+    top: 58px; 
+    white-space: nowrap; 
+    width: 853px; 
+}
+.screen .thememenu {
+    background-color: #fafafa;
+    height: 84px;
+    left: 87px;
+    position: absolute;
+    top: 180px;
+    width: 1266px;
+}
+
+.screen .searchframe {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #6d6d6d;
+    border-radius: 143px;
+    height: 75px;
+    left: 354px;
+    position: absolute;
+    top: 78px;
+    width: 666px;
+}
+
+.screen .searchimg {
+    height: 50px;
+    left: 591px;
+    position: absolute;
+    top: 11px;
+    width: 50px;
+}
+
+.screen .searchtext {
+    color: #cec9c9;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 45px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 24px;
+    white-space: nowrap;
+}
+
+.screen .logo {
+    height: 58px;
+    left: 150px;
+    object-fit: cover;
+    position: absolute;
+    top: 87px;
+    width: 117px;
+}
+
+.screen .todaytheme {
+    color: #000000;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 50px;
+    font-weight: 600;
+    left: 206px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 58px;
+    white-space: nowrap;
+    width: 853px;
+}
+
+.screen .thememake {
+    color: #828282;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 458px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 28px;
+}
+
+.screen .viewtheme {
+    color: #828282;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    left: 135px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 28px;
+}
+
+.screen .mystorage {
+    color: #828282;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 1011px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 28px;
+}
+
+.screen .community {
+    color: #828282;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    left: 736px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 28px;
+}
+.screen .mypage {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 1109px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 103px;
+    white-space: nowrap;
+}
+.screen .myprofile {
+    height: 78px;
+    left: 1211px;
+    object-fit: cover;
+    position: absolute;
+    top: 77px;
+    width: 78px;
+}
